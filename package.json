@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "transfer-videos": "mongo-to-elastic --db PPAV -c videos --con 1"
+  },
+  "dependencies": {
+    "mongo-to-elastic": "^0.0.2"
+  }
+}
